@@ -1,7 +1,10 @@
 package com.gec;
 
 public class Demo1Test {
-    protected void addUser() {
-        System.out.println("protected void addUser()====");
+    public void addUser() {
+        System.out.println("public void addUser()====");
+    }
+    public void aaa() {
+        System.out.println("public void aaa()====");
     }
 }
